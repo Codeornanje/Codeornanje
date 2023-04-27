@@ -1,0 +1,178 @@
+<!DOCTYPE html5>
+
+<html>
+  <head>
+    <title>Beginners cheat sheet to HTML</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Comfortaa&family=Merriweather:wght@300&family=Space+Mono&family=Work+Sans:wght@100&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./styles.css" type="text/css" />
+  </head>
+  <body>
+    <header>
+    <div class="container">
+    <nav class="navbar">
+      <ul class="navmenu">
+        <li class="navsec"><a href="#home">Home</a></li>
+        <li class="navsec"><a href="#Need">Need to Know</a></li>
+        <li class="navsec"><a href="#tables">Tables</a></li>
+        <li class="navsec"><a href="#TableAtts">Table Attributes</a></li>
+      </ul>
+    </nav>
+  </div>
+  </header>
+    <!-- intro to cheat sheet-->
+    
+    <h1 id="home">Beginners cheat sheet to HTML</h1>
+    
+    <p>
+      Congratulations you made it here!<br />
+      You're probably looking for information regarding HTML. 
+      Fear not.. follow the basics below to become an HTML pro in no time!
+    </p>
+
+    <h2>Set up Basics</h2>
+    <p>
+      Wanting to start an html doc and dont know how to set up your document?
+      Follow the screenshot below and <strong>TYPE IT BY HAND!</strong><br />
+      You may be thinking.. "why by hand Ornanje??" thats because with practice in
+      typing vs copy pasting will engrain that delicious knowledge in your head
+      so you never have to come back to this crusty site!
+    </p>
+    <img class="pic" src="Html-basic-layout.png" />
+
+    <!-- elements section-->
+    <h2 id="Need" class="Elements">Need to know elements</h2>
+    <p>
+      A lot of what you'll see is basic knowledge.. but you never know when
+      you'll need this information if you ever have a brainfart!
+    </p>
+    <table>
+      <thead>
+        <th>Tag</th>
+        <th>Name</th>
+        <th>Description</th>
+      </thead>
+      <tbody>
+        <tr>
+          <td><span class="List">&lt;li&gt;</span></td>
+          <td>List</td>
+          <td>
+            Creates a list, either unordered&lt;ul&gt; or ordered &lt;ol&gt;
+            lists
+          </td>
+        </tr>
+        <tr>
+          <td><span class="Video">&lt;video&gt;</span></td>
+          <td>Video</td>
+          <td>
+            Embeds a media player for video playback. Requires a
+            <em>src</em> and if you want controls just type "controls" in right
+            after your source.
+          </td>
+        </tr>
+        <tr>
+          <td><span class="Emphasis">&lt;em&gt;</span></td>
+          <td>Emphasis</td>
+          <td>Emphasizes text and browsers will usually italicize</td>
+        </tr>
+        <tr>
+          <td><span class="Division">&lt;div&gt;</span></td>
+          <td>Div</td>
+          <td>
+            Used as a container that divides an HTML document into sections and
+            is short for “division”
+          </td>
+        </tr>
+        <tr>
+          <td><span class="Break">&lt;br&gt;</span></td>
+          <td>Break</td>
+          <td>
+            Will create a line break in text and is especially useful where a
+            division of text is required
+          </td>
+        </tr>
+        <tr>
+          <td><span class="Image">&lt;img&gt;</span></td>
+          <td>Image</td>
+          <td>
+            Embed images in documents. The <em>src</em> attribute contains the
+            image URL and is mandatory.
+          </td>
+        </tr>
+      </tbody>
+    </table>
+
+    <figure>
+    <img class="pic" src="DSC_0191.jpg"><figcaption> This is my cat, take a breather and then look below..</figcaption>
+    </figure>
+
+    <!-- Tables for table cheats-->
+    <h2 id="tables" class="tables">Tables!</h2>
+    <p>
+      Tables take a bit of work so I cheat the cheat and used the tables used
+      from codecademy and spruced it up with my own CSS styling.. Take a look
+      below!
+    </p>
+    <table>
+      <thead>
+        <th>Tag</th>
+        <th>Name</th>
+        <th>Description</th>
+      </thead>
+      <tbody>
+        <tr>
+          <td><span class="code">&lt;table&gt;</span></td>
+          <td>Table</td>
+          <td>The wrapper element for all HTML tables.</td>
+        </tr>
+        <tr>
+          <td><span class="code">&lt;thead&gt;</span></td>
+          <td>Table Head</td>
+          <td>The set of rows defining the column headers in a table.</td>
+        </tr>
+        <tr>
+          <td><span class="code">&lt;tbody&gt;</span></td>
+          <td>Table Body</td>
+          <td>The set of rows containing actual table data.</td>
+        </tr>
+        <tr>
+          <td><span class="code">&lt;tr&gt;</span></td>
+          <td>Table Row</td>
+          <td>The table row container.</td>
+        </tr>
+        <tr>
+          <td><span class="code">&lt;td&gt;</span></td>
+          <td>Table Data</td>
+          <td>The table row container.</td>
+        </tr>
+        <tr>
+          <td><span class="code">&lt;tfoot&gt;</span></td>
+          <td>Table Foot</td>
+          <td>The set of rows defining the footer in a table.</td>
+        </tr>
+      </tbody>
+    </table>
+
+    <h2 id="TableAtts">Table Attributes</h2>
+    <table>
+      <thead>
+        <th>Attribute</th>
+        <th>Name</th>
+        <th>Description</th>
+      </thead>
+      <tbody>
+        <tr>
+          <td><span class="code">colspan</span></td>
+          <td>Column Span</td>
+          <td>Defines how many columns a td element should span.</td>
+        </tr>
+        <tr>
+          <td><span class="code">rowspan</span></td>
+          <td>Row Span</td>
+          <td>Defines how many rows a td element should span.</td>
+        </tr>
+      </tbody>
+    </table>
+  </body>
+</html>
